@@ -1,0 +1,19 @@
+.heading {
+  color: orange;
+}
+
+/* will be imported as a class
+you won't be able to distinguish between classes and ids as they all appear the same when we import them  */
+#heading2 {
+  background-color: rebeccapurple;
+}
+
+.heading .c {
+  color: blue;
+}
+
+/* does not appear when we import styles from this file
+.module.css files are apparently for classes only */
+ul li {
+  color: green;
+}
